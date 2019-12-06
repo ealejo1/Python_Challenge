@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Py Bank
 #Dependencies
 import csv
@@ -82,16 +76,3 @@ with open(file_to_load) as financial_data:
 with open(file_to_output, "w") as txt_file:
     txt_file.write(output)
       
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
