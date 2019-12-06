@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
-# List all dependencies
+# List all dependencies:
 import csv
 import os
 
@@ -58,22 +52,3 @@ output = output + '\n' + '  -------------------------'
 print(output)
 with open(file_to_output,'w') as outputfile:
         outputfile.write(output)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
